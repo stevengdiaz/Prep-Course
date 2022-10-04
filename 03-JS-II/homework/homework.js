@@ -13,7 +13,8 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-if (edad >= 18) return "Allowed";
+if (edad >= 18) 
+  return "Allowed";
 else return "Not allowed";
 }
 
@@ -95,9 +96,9 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
   if (Math.floor(numero) === numero)
-  return true;
-  else return false;
-
+    return true;
+  else
+    return false;
 }
 
 function fizzBuzz(numero) {
