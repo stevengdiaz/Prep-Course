@@ -42,6 +42,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
 
 
 
+
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
   // y devuelve el array
@@ -59,7 +60,8 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   let newFrase = palabras.join(" ");
-  return newFrase;
+  return newFrase;  
+
 }
 
 
@@ -68,7 +70,8 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === elemento) return true;
+    if (array[i] === elemento)
+     return true;
   }
  return false;
 }
