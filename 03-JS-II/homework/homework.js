@@ -5,17 +5,22 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x > y) return x;
-  else return y;
+  if (x > y){
+    return x;
+  }else{
+    return y;
+  }
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-if (edad >= 18) 
+if (edad >= 18){ 
   return "Allowed";
-else return "Not allowed";
+  }else{
+    return "Not allowed";
+  }
 }
 
   
@@ -130,7 +135,7 @@ function operadoresLogicos(num1, num2, num3) {
   else if (num1 > 0 && num1 > num2 && num1 > num3)
     return "Número 1 es mayor y positivo";
   else if (num3 > num1 && num3 > num2)
-    return (num3 + 1);
+    return num3 += 1;
   else
     return false
 }
